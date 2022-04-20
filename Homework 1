@@ -1,0 +1,20 @@
+//3. Given an array. Determine whether it consists only from uniques or not.
+let checkUnique = arr => { 
+    let count = 0
+    let count1 = 0
+    for(var el of arr){
+        for(var el1 of arr){
+            if(el == el1){
+                count++
+            } else {
+                count1++
+            }
+        }
+    }
+    if(count == arr.length){
+        return 'All elements are unique'
+    } else {
+        return 'All elements are not unique'
+    }
+}
+console.log(checkUnique([1, 5, 2, 7, 12, 25, 8]))
