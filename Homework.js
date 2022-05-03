@@ -14,8 +14,8 @@ console.log(removeFirst([6, 78, 'n', 0, 1]))
 //left. (Hint: to add element to the beginning use arr.unshift())
 let rotateArr = (arr, num, n = 0) => {
 if(n !== num){
-  let pop = arr.pop()
-  let shift = arr.unshift(pop)
+  let lastElement = arr.pop()
+  arr.unshift(lastElement)
 } else {
   return arr
 }
