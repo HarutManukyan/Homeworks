@@ -1,34 +1,14 @@
-//3. Write a recursive function to determine whether all digits of the number are odd or
-//not.
-let checkOdd = (num) => {
-        
-  let lastDigit = num % 10
-  if(lastDigit % 2 == 0){
+//3. Implement binary search.
 
-      return false
-  } else {
-      num = (num - lastDigit)/10
-  }
-  checkOdd(num)
+function impBinarySrch(arr, num){
+    let random = Math.round(Math.random() * arr[arr.length - 1])
+    let index = arr.indexOf(random)
+    if(random == num){
+        return 'We found it'
+    } else if(random < num){
+        arr.splice(0, index) 
+    } else if(random > num){
+        arr.splice(index, arr.length - 1)
+    }
+    return impBinarySrch(arr, num)
 }
-console.log(checkOdd(1211133))
-
-
-
-
-
-//4. Given an array of numbers. Write a recursive function to find its //minimal positive element. (if
-//such element does not exist, return -1)․
-let findMinPos = (arr, n = 0) => {
-  arr.sort()
-  if(arr[0] < 0){
-      arr.splice(0, 1)
-  } else {
-      return arr[0]
-  }
-  findMinPos(arr)
-}
-console.log(findMinPos([56, -9, 87, -23, 0, -105, 55, 1]))
-
-
-//Չեմ հասկանում խի undefined-են տալի

@@ -1,0 +1,263 @@
+.container{
+    max-width: 950px;
+    margin: 0 150px;
+    font-family: 'Lato', sans-serif;
+
+}
+.menu{
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    border-bottom: #828282 solid 1px;
+    font-family: 'Lato', sans-serif;
+}
+.home{
+    cursor: pointer;
+    color: #070707;
+    font-size: 18px;
+    transition: all 1s;
+    padding: 20px 75px;
+}
+.about{
+    cursor: pointer;
+    color: #070707;
+    transition: all 0.5s;
+    font-size: 18px;
+    padding: 20px 75px;
+    color: #828282;
+}
+.skills{
+    cursor: pointer;
+    color: #070707;
+    font-size: 18px;
+    transition: all 0.5s;
+    padding: 20px 75px;
+    transition: all 1s;
+    color: #828282;
+}
+.portfolio{
+    cursor: pointer;
+    color: #070707;
+    font-size: 18px;
+    padding: 20px 75px;
+    color: #828282;
+    transition: all 0.5s;
+
+}
+.contacts{
+    cursor: pointer;
+    color: #070707;
+    font-size: 18px;
+    padding: 20px 75px;
+    color: #828282;
+    transition: all 0.5s;
+}
+.home:hover{
+    color:cornflowerblue;
+}
+.about:hover{
+    color:cornflowerblue;
+}
+.skills:hover{
+    color:cornflowerblue;
+}
+.portfolio:hover{
+    color:cornflowerblue;
+}
+.contacts:hover{
+    color:cornflowerblue;
+}
+.main__info{
+    position: relative;
+    top: 30px;
+}
+.name__title{
+    font-size: 47px;
+    font-weight: 700;
+    position: relative;
+    top: 30px;
+}
+.profession{
+    position: relative;
+    left: 350px;
+    bottom: 50px;
+    font-size: 18px;
+}
+.languages{
+    cursor: pointer;
+    writing-mode:vertical-lr;
+    position: relative;
+    left: 900px;
+    bottom: 100px;
+
+}
+.b{
+    display: flex;     
+     justify-content: center;     
+     align-items: center;     
+     text-align: center;     
+     margin: auto;     
+     font-size: 2rem;     
+     color: #fff;     
+     background: #000; 
+}
+.self__image{
+    width: 900px;
+    height: 400px;
+}
+
+.info__title{
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.info__text{
+    font-size: 18px;
+    padding: 25px;
+}
+.deep__info{
+    position: relative;
+    top: 188px;
+    text-align: center;
+}
+.works{
+    position: relative;
+    top: 300px;
+    text-align: center;
+}
+.works__title{
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.work-1{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 50px;
+}
+.konstrukt1{
+    width: 450px;
+    height: 350px;
+
+}
+.konstrukt2{
+    width: 450px;
+    height: 350px;
+}
+.works__name1{
+    position: relative;
+    top: 20px;   
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.avatar1{
+    width: 450px;
+    height: 350px;
+}
+.avatar2{
+    width: 450px;
+    height: 350px;
+}
+.avatar3{
+    width: 450px;
+    height: 350px;
+}
+.avatar4{
+    width: 450px;
+    height: 350px;
+}
+.work-2{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 130px;
+}
+.works__name2{
+    position: relative;
+    top: 110px;   
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.works__name3{
+    position: relative;
+    top: 180px;   
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.work-3{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 200px;
+}
+.tesla1{
+    width: 450px;
+    height: 350px;
+}
+.tesla2{
+    width: 450px;
+    height: 350px;
+}
+.contacts__footer{
+    position: relative;
+    top: 250px;
+}
+.contacts__title{
+    position: relative;
+    top: 180px;   
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.social-media{
+    position: relative;
+    top: 350px;
+    justify-content: space-between;
+}
+.insta{
+    width: 50px;
+    height: 50px;
+    padding: 0 20px;
+}
+.facebook{
+    width: 50px;
+    height: 50px;
+    padding: 0 20px;
+
+}
+.github{
+    width: 60px;
+    padding: 0 20px;
+    height: 50px;
+}
+.stack{
+    width: 50px;
+    padding: 0 20px;
+    height: 50px;
+}
+.contacts__text{
+    text-align: center;
+    position: relative;
+    top: 210px;
+}
+.btn{
+    border: #000 solid 1px;
+    background-color: #000;
+    text-decoration: none;
+    border-radius: 22px;
+    position: relative;
+    top: 270px;
+    transition: all 0.5s;
+}
+a{
+    color: #fff;
+    padding: 10px 25px;
+    text-transform: uppercase;
+}
+.btn:hover{
+    color: cornflowerblue;
+}
